@@ -4,12 +4,64 @@
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+.login-buttons{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-classic{
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(70, 69, 69);
+  color: white;
+}
+
+.btn-classic:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 .container{
   width: 80%;
   margin: 0 auto;
 }
+
+/* --------------- HEADER ---------------- */
+
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.navbar{
+  display: flex;
+  width: 60%;
+}
+
+.navbar div{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
 .App-header{
   height: 100px;
   background-color: gray;
   color: white;
 }
+
+
+
+/* --------------- FOOTER ---------------- */

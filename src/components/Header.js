@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="App-header">
         
-        <div className='container'>
+        <div className='container header-container'>
 
           <div className='logo'>
             {/* <img src="./assets/logo.png" alt='vim'/> */}
@@ -18,9 +18,9 @@ const Header = () => {
             <Navbar />
           </div>
 
-          <div>
-            <button> Accedi </button>
-            <button> Registrati </button>
+          <div className='login-buttons'>
+            <button className='btn-classic'> Accedi </button>
+            <button className='btn-classic'> Registrati </button>
           </div>
         </div>
     </div>
